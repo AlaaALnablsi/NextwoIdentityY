@@ -1,0 +1,17 @@
+﻿@model Category
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+<table class="table table-bordered">
+    <tr>
+        <td><label asp-for="CategoryName"></label></td>
+        <td>@Model.CategoryName</td>
+    </tr>
+    
+    <a asp-action="Index" class="btn btn-warning">Back To Categories</a>
+
+</table>
+
+
